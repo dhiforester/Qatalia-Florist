@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 05, 2022 at 02:17 PM
+-- Generation Time: Mar 29, 2025 at 05:12 PM
 -- Server version: 5.7.31
--- PHP Version: 7.1.33
+-- PHP Version: 7.3.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS `barang` (
   `kategori` text,
   `gambar` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`id_barang`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `barang`
